@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.hokai/hokai",
+  "title": "HokAI",
+  "description": "Query the HokAI catalogue of AI tools, agents, models, companies and infrastructure services.",
+  "version": "1.0.0",
+  "websiteUrl": "https://hokai.io",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://hokai.io/mcp" }
+  ]
+}
