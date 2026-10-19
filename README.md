@@ -34,6 +34,8 @@ Transport: Streamable HTTP. No authentication required — the catalogue is publ
 | Tool | Description |
 |---|---|
 | `get_tools_tree` | Returns the full HokAI catalogue tree — AI tools, agents, models, companies and services, with categories. |
+| `get_listing_info` | How an AI product gets listed on HokAI: today's one-time price, what a listing includes, and the free badge route. |
+| `submit_listing` | Starts a listing for an AI tool, model, agent, MCP server or service. Returns a payment link that a person completes; nothing is charged by the call. Submissions are reviewed by a person, and paying never affects rankings. |
 | `scanner_status` | Health check. Returns `ok` when the server is running. |
 
 ## Run it yourself
